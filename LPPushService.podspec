@@ -4,11 +4,6 @@ Pod::Spec.new do |spec|
   spec.version      = "0.0.1"
   spec.platform     = :ios
   spec.ios.deployment_target = "8.0"
-  spec.license      = { :type => "Proprietary",
-			:text => <<-LICENSE
-				copyright 2017 tencent Ltd. All rights reserved.
-				LICENSE
-			 }
   spec.homepage     = "https://cloud.tencent.com/product/mlvb"
   spec.author             = { "" => "" }
   spec.summary      = "TGCameraManager for my ."
