@@ -16,6 +16,6 @@ Pod::Spec.new do |spec|
   spec.vendored_frameworks = "out/TestFrameworkForMe.framework"
   spec.xcconfig = { "HEADER_SEARCH_PATHS" => "${PODS_ROOT}/TGCameraManager/out/TXLiteAVSDK_Professional.framework/Headers/"}
   s.dependency          "AFNetworking"
-
+  spec.dependency "JSONKit", "~> 1.4"
 
 end
