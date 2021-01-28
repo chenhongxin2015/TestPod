@@ -9,7 +9,7 @@ Pod::Spec.new do |spec|
   spec.license      = { :type => "Apache"}
   spec.summary      = "一段很好的会以 哈哈哈哈 看嘛看没看看看尽快尽快看就看看见看见"
   spec.requires_arc = true
-  spec.source       = { :http => "https://github.com/chenhongxin2015/TestPod/blob/main/TGCameraManager.zip" }
+  spec.source       = { :http => "https://github.com/chenhongxin2015/TestPod/raw/main/TGCameraManager.zip" }
   spec.preserve_paths = "TGCameraManager/TestFrameworkForMe.framework"
   spec.source_files  = "TGCameraManager/TestFrameworkForMe.framework/Headers/*.h"
   spec.public_header_files = "TGCameraManager/TestFrameworkForMe.framework/Headers/*.h"
